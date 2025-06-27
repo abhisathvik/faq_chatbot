@@ -50,18 +50,24 @@ faq_chatbot/
 ## 🛠️ Run Locally
 
 ### 1. Clone this repo
-  bash
+  bash:
+  
      git clone https://github.com/abhisathvik/faq_chatbot.git
+     
      cd faq_chatbot
+     
 ### 2. Install requirements
-  bash
+  bash:
+  
     pip install -r requirements.txt
 ### 3. Set OpenRouter API Key
   Create a .env file:
+  
   OPENROUTER_API_KEY=sk-or-xxxxxxxxxxxxxxxxxxxxxxxx
 
 ### 4. Launch the app
-  bash
+  bash:
+  
     python app.py
 
 
