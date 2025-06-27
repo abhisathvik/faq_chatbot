@@ -17,18 +17,22 @@ And get natural, helpful responses powered by a local FAQ dataset.
 ## 🚀 Demo
 
 👉 Hosted on Hugging Face Spaces:  
-[https://huggingface.co/spaces/your-username/hdfc-faq-bot](#)  
-_(Replace with your real link)_
+[https://huggingface.co/spaces/abhisathvik/faq_bot](#)  
 
 ---
 
 ## 📂 Project Structure
 
-hdfc-faq-bot/
+faq_chatbot/
+
 ├── app.py # Gradio app with FAISS + DeepSeek
+
 ├── faq_data.pkl # Q&A pairs
+
 ├── faq_index.faiss # Vector index using FAISS
+
 ├── requirements.txt # Project dependencies
+
 └── README.md # Project overview (this file)
 
 
@@ -47,8 +51,8 @@ hdfc-faq-bot/
 
 ### 1. Clone this repo
   bash
-     git clone https://github.com/your-username/hdfc-faq-bot.git
-     cd hdfc-faq-bot
+     git clone https://github.com/abhisathvik/faq_chatbot.git
+     cd faq_chatbot
 ### 2. Install requirements
   bash
     pip install -r requirements.txt
